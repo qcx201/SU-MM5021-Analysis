@@ -1,28 +1,21 @@
-
+<!-- <!DOCTYPE markdown> -->
 <!-- https://stackoverflow.com/a/61945876 -->
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page Title</title>
-    <style>
-      /* Whatever that is inside this <style> tag is all styling for your markup / content structure.
-      /* The . with the boxed represents that it is a class */
-      .boxed {
-        background: #F2F2F2;
-        color: black;
-        border: 3px solid #535353;
-        margin: 0px auto;
-        width: 456px;
-        padding: 10px;
-        border-radius: 10px;
-      }
-    </style>
-  </head>
-  <body>
-  
+<style>
+    /* Whatever that is inside this <style> tag is all styling for your markup / content structure.
+    /* The . with the boxed represents that it is a class */
+    .boxed {
+    background: #F2F2F2;
+    color: black;
+    border: 3px solid #535353;
+    margin: 0px auto;
+    width: 456px;
+    padding: 10px;
+    border-radius: 10px;
+    }
+</style>
+
+
 <!-- ### Definition (logic).
 
 Use $:=$ or $:=$ to denote a definition.
@@ -540,6 +533,3 @@ $$\begin{align}
 \end{align}$$
 
 -->
-
-  </body>
-<html>
