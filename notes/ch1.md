@@ -1,4 +1,6 @@
 
+<!-- https://stackoverflow.com/a/61945876 -->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -19,8 +21,8 @@
       }
     </style>
   </head>
-<html>
-
+  <body>
+  
 <!-- ### Definition (logic).
 
 Use $:=$ or $:=$ to denote a definition.
@@ -279,3 +281,6 @@ $$
 $$
 
 -->
+
+  </body>
+<html>
