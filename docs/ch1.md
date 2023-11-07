@@ -629,7 +629,7 @@ $$
 <details>
     <summary><b>
     Proof of (a).
-    </b></summary><br>
+    </b></summary>
 
 Suppose <b>(a)</b> is false, and let $x, y \in \mathbb{R},\; x > 0$ such that
 $$
@@ -673,7 +673,7 @@ $$
 <details>
     <summary><b>
     Proof of (b).
-    </b></summary><br>
+    </b></summary>
 
 Let $x, y \in \mathbb{R}$ where $x < y$. Then $y - x > 0$.
 
@@ -712,6 +712,35 @@ Thus there exists some $p = \frac{m}{n} \in \mathbb{Q}$ where $x < p < y$. $\squ
 </details>
 
 </div>
+
+### Theorem 1.12 (existence of <i>n</i>th root)
+
+<div class="boxed thm">
+<details>
+    <summary><b>
+    Existence of the <i>n</i>th root
+    </b></summary><br>
+
+For every $x \in \mathbb R^+$ and every $n \in \mathbb N$, there is a unique positive $y \in \mathbb R$ where $y^n = \underbrace{y \cdots y}_{n \text{ times}} = x$.
+
+We write $y = \sqrt[n]{x} = x^{1/n}$.
+
+<b>Proof.</b> See page 10 of <i>Rudin, 3rd ed.</i>
+
+<details>
+    <summary><b>
+    Corollary.
+    </b></summary><br>
+
+If $a, b \in \mathbb R^+$, then $(ab)^{1/n} = a^{1/n} b^{1/n}.$
+
+<b>Proof of corollary.</b> See page 11 of <i>Rudin, 3rd ed.</i>
+
+</details>
+
+</details>
+</div>
+
 
 <!-- 
 
