@@ -1,6 +1,7 @@
 <!-- <!DOCTYPE markdown> -->
-<!-- https://stackoverflow.com/a/61945876 -->
 
+<!-- border div: https://stackoverflow.com/a/61945876 -->
+<!-- markdown: https://stackoverflow.com/a/50974387 -->
 <style>
     /* Whatever that is inside this <style> tag is all styling for your markup / content structure.
     /* The . with the boxed represents that it is a class */
@@ -15,6 +16,13 @@
     border-radius: 10px;
     }
 </style>
+
+<!-- mathjax: https://stackoverflow.com/a/39036912 -->
+<script type="text/javascript" charset="utf-8" 
+src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML,
+https://vincenttam.github.io/javascripts/MathJaxLocal.js">
+</script>
+
 
 
 <!-- ### Definition (logic).
