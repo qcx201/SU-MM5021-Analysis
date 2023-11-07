@@ -296,6 +296,23 @@ $$
 
 <b>Remark:</b> The rationals $\mathbb{Q}$ does <i>not</i> have the LUBP. For example, $E = \left\{x \in \mathbb{Q} : x < \sqrt 2 \right\} \subset \mathbb{Q}$ is bounded above by $\sqrt 2$ but has no supremum in $\mathbb{Q}$.
 
+We construct $\mathbb R$ in [Theorem 1.19](#theorem-119-existence-of-r) which has the LUBP.
+
+<details>
+    <summary>
+    <b>Proof of remark.</b>
+    </summary>
+
+Suppose there exists $p = \sup E \in \mathbb{Q}$ so that $p < \sqrt{2}$.
+
+Since $p \in \mathbb{Q} \rightarrow p \in \mathbb{R}$ by [Theorem 1.19](#theorem-119-existence-of-r) and $\sqrt 2 \in \mathbb{R}$, then there exists some $q \in \mathbb{Q}$ where $ p < q < \sqrt 2$ by [Theorem 1.20(b)](#theorem-120-ap-and-dq) (density of $\mathbb Q$ in $\mathbb R$).
+
+But $q \in \mathbb{Q}$ and $q < \sqrt 2$ means $q \in E$, then $p < q$ contradicts that $p = \sup E$ since then $p$ is not an upper bound. $\square$
+
+</details>
+
+
+
 ### Theorem 1.11 (sup LB=GLB).
 
 <div class="boxed thm">
@@ -591,11 +608,11 @@ This theorem contains two important results: the <b><i>archimedean property</i><
 
 <details>
     <summary><b>
-    The archimedean property (AP)
+    (a) The archimedean property (AP)
     </b></summary><br>
 
 
-<b>(a)</b> The <b><i>archimedian property</i></b> states that any positive $x\in\mathbb{R}$ can be added a finite number of times to be greater than any other real number $y \in \mathbb{R}$:
+The <b><i>archimedian property</i></b> states that any positive $x\in\mathbb{R}$ can be added a finite number of times to be greater than any other real number $y \in \mathbb{R}$:
 $$
     x, y \in \mathbb{R},
     \quad
@@ -637,10 +654,10 @@ which contradicts the definition of $\sup (\mathbb{N}x)$ as an upper bound of $\
 
 <details>
     <summary><b>
-    Density of Q in R (DQ)
+    (b) Density of Q in R (DQ)
     </b></summary><br>
 
-<b>(b)</b> We say that $\mathbb{Q}$ is <b><i>dense</i></b> in $\mathbb{R}$, since there is always a rational $p \in \mathbb{Q}$ that fits between any two real numbers $x, y \in \mathbb{R}$ of distinct order:
+We say that $\mathbb{Q}$ is <b><i>dense</i></b> in $\mathbb{R}$, since there is always a rational $p \in \mathbb{Q}$ that fits between any two real numbers $x, y \in \mathbb{R}$ of distinct order:
 $$
     x, y \in \mathbb{R},
     \quad
@@ -685,7 +702,7 @@ $$\begin{align*}
     x < \frac{m}{n} < y.
 \end{align*}$$
 
-Thus there exists some $p = \frac{m}{n} \in \mathbb{Q}$ where $x < p < y$.
+Thus there exists some $p = \frac{m}{n} \in \mathbb{Q}$ where $x < p < y$. $\square$
 
 </details>
 
