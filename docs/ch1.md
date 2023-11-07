@@ -2,6 +2,7 @@
 
 <!-- border div: https://stackoverflow.com/a/61945876 -->
 <!-- markdown: https://stackoverflow.com/a/50974387 -->
+
 <style>
     .boxed {
     background: #F2F2F2;
@@ -20,7 +21,6 @@
 src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML,
 https://vincenttam.github.io/javascripts/MathJaxLocal.js">
 </script>
-
 
 
 <!-- ### Definition (logic).
@@ -46,7 +46,7 @@ Let $P$ and $Q$ be statements. -->
 
 ### Notation
 
-Some notation used not found in *Rudin, 3rd ed*.
+Some notation used not found in <i>Rudin, 3rd ed</i>.
 
 |Symbol          |Explanation             |
 |:--------------:|------------------------|
@@ -141,7 +141,7 @@ $$
 
 <details><summary><b>Other definitions</b></summary>
 
-**Less than</b> and <b><i>greater than:</i></b>
+<b>Less than</b> and <b><i>greater than:</i></b>
 
 $$
     x < y
@@ -150,7 +150,7 @@ $$
     .
 $$
 
-***Weak</i> inequalities:**
+<b><i>Weak</i> inequalities:</b>
 $$
     x \le y
     \;:=\;
