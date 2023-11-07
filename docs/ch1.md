@@ -14,6 +14,10 @@
     padding: 10px;
     border-radius: 10px;
     }
+
+    .thm {
+    background: #f6d6d2;
+    }
 </style>
 
 <!-- mathjax: https://stackoverflow.com/a/39036912 -->
@@ -267,7 +271,7 @@ $$
 
 ### Theorem 1.11 (sup LB=GLB).
 
-<div class="boxed">
+<div class="boxed thm">
 <details><summary><b>Supremum of lower bounds is the greatest lower bound</b></summary>
 
 Let $(S, <)$ be an ordered set with the LUBP.
@@ -432,6 +436,8 @@ Let $x, y, z \in F$ in field $(F, +, \cdot)$. Then the following are true.
 <br>
 <b>(d)</b> $-(-x) = x.$
 
+<b>Proof.</b> See book.
+
 </details>
 </div>
 
@@ -452,6 +458,8 @@ Let $x, y, z \in F, \; x \ne 0$ in field $(F, +, \cdot)$. Then the following are
 <b>(c)</b> $x \cdot y = 1 \implies y = x^{-1}.$
 <br>
 <b>(d)</b> $(x^{-1})^{-1} = x.$
+
+<b>Proof.</b> See book.
 
 </details>
 </div>
@@ -474,6 +482,8 @@ Let $x, y, z \in F$ in field $(F, +, \cdot)$. Then the following are true.
 <b>(c)</b> $(-x)\cdot y = -(x \cdot y) = x \cdot (-y).$
 <br>
 <b>(d)</b> $(-x)\cdot(-y) = x \cdot y.$
+
+<b>Proof.</b> See book.
 
 </details>
 </div>
