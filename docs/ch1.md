@@ -62,7 +62,7 @@ Some notation used not found in *Rudin, 3rd ed*.
 
 ### Definitions 1.3 (sets).
 
-<span style="display:block" class="boxed" markdown="1">
+<DIV class="boxed" markdown="1">
 <details><summary><b>Set membership</b></summary>
 
 A ***set*** is a collection of objects.
@@ -93,12 +93,12 @@ $$
     (A \subseteq B) \land (\exists b \in B, b \not\in A).
 $$
 </details>
-</span>
+</DIV>
 
 
 ### Definition 1.4 (rationals).
 
-<span style="display:block" class="boxed" markdown="1">
+<DIV class="boxed" markdown="1">
 <details><summary><b>Common sets</b></summary>
 
 Let $\mathbb{N}$ denote the set of ***natural*** numbers.
@@ -117,7 +117,7 @@ $$
 $$
 
 </details>
-</span>
+</DIV>
 
 
 
@@ -125,7 +125,7 @@ $$
 
 ### Definitions 1.5 (order).
 
-<span style="display:block" class="boxed" markdown="1">
+<DIV class="boxed" markdown="1">
 <details><summary><b>Order relation</b></summary>
 
 Let $S$ be a set. An ***order*** $(<)$ on $S$ has two properties:
@@ -162,23 +162,23 @@ $$
 $$
 
 </details>
-</span>
+</DIV>
 
 
 ### Definition 1.6 (ordered set).
 
-<span style="display:block" class="boxed" markdown="1">
+<DIV class="boxed" markdown="1">
 <details><summary><b>Ordered set</b></summary>
 
 An ***ordered set*** is a set $S$ in which an order $(<)$ is defined.
 
 </details>
-</span>
+</DIV>
 
 
 ### Definition 1.7 (upper and lower bound).
 
-<span style="display:block" class="boxed" markdown="1">
+<DIV class="boxed" markdown="1">
 <details><summary><b>Upper bound</b></summary>
 
 Let $(S, <)$ be an ordered set and $E \subset S$. Then if
@@ -201,12 +201,12 @@ $$
 $$
 
 </details>
-</span>
+</DIV>
 
 
 ### Definition 1.8 (supremum and infimum).
 
-<span style="display:block" class="boxed" markdown="1">
+<DIV class="boxed" markdown="1">
 <details><summary><b>Supremum</b></summary>
 
 Let $(S, <)$ be an ordered set, $E \subset S$, and $E$ be bounded above. If there is an $a \in S$ where
@@ -232,9 +232,9 @@ $$
 b = \sup E.
 $$
 </details>
-</span>
+</DIV>
 
-<span style="display:block" class="boxed" markdown="1">
+<DIV class="boxed" markdown="1">
 <details><summary><b>Infimum</b></summary>
 
 Similarly, we define the ***greatest lower bound*** or **infimum** as
@@ -248,11 +248,11 @@ $$
 $$
 
 </details>
-</span>
+</DIV>
 
 ### Definition 1.10 (LUBP).
 
-<span style="display:block" class="boxed" markdown="1">
+<DIV class="boxed" markdown="1">
 <details><summary><b>Least-upper-bound property (LUBP)</b></summary>
 
 An ordered set $(S, <)$ has the ***least-upper-bound property*** if for any $E \subset S$ where $E \ne \varnothing$, if $E$ 
@@ -264,12 +264,12 @@ $$
 $$
 
 </details>
-</span>
+</DIV>
 
 
 ### Theorem 1.11 (sup LB=GLB).
 
-<span style="display:block" class="boxed" markdown="1">
+<DIV class="boxed" markdown="1">
 <details><summary><b>Supremum of lower bounds is the greatest lower bound</b></summary>
 
 Let $(S, <)$ be an ordered set with the LUBP.
@@ -287,7 +287,7 @@ $$
 **Proof.** See page 5 of *Rudin, 3rd ed*.
 
 </details>
-</span>
+</DIV>
 
 
 
@@ -296,7 +296,7 @@ $$
 
 ### Definition 1.12 (field).
 
-<span style="display:block" class="boxed" markdown="1">
+<DIV class="boxed" markdown="1">
 <details>
     <summary><b>
     Field axioms
@@ -414,11 +414,11 @@ $$
 
 </details>
 </details>
-</span>
+</DIV>
 
 ### Proposition 1.14 (addition properties).
 
-<span style="display:block" class="boxed" markdown="1">
+<DIV class="boxed" markdown="1">
 <details>
     <summary><b>
     Properties of addition
@@ -435,11 +435,11 @@ Let $x, y, z \in F$ in field $(F, +, \cdot)$. Then the following are true.
 **(d)** $-(-x) = x.$
 
 </details>
-</span>
+</DIV>
 
 ### Proposition 1.15 (multiplication properties).
 
-<span style="display:block" class="boxed" markdown="1">
+<DIV class="boxed" markdown="1">
 <details>
     <summary><b>
     Properties of multiplication
@@ -456,12 +456,12 @@ Let $x, y, z \in F, \; x \ne 0$ in field $(F, +, \cdot)$. Then the following are
 **(d)** $(x^{-1})^{-1} = x.$
 
 </details>
-</span>
+</DIV>
 
 
 ### Proposition 1.16 (other field properties).
 
-<span style="display:block" class="boxed" markdown="1">
+<DIV class="boxed" markdown="1">
 <details>
     <summary><b>
     Other field properties
@@ -478,12 +478,12 @@ Let $x, y, z \in F$ in field $(F, +, \cdot)$. Then the following are true.
 **(d)** $(-x)\cdot(-y) = x \cdot y.$
 
 </details>
-</span>
+</DIV>
 
 
 ### Definition 1.17 (ordered field)
 
-<span style="display:block" class="boxed" markdown="1">
+<DIV class="boxed" markdown="1">
 <details>
     <summary><b>
     Ordered field
@@ -496,12 +496,12 @@ An ***ordered field*** $((F, +, \cdot), <)$ is a **field** $F$ that is also an *
 **(ii)** $x, y > 0 \implies xy > 0$.
 
 </details>
-</span>
+</DIV>
 
 
 ### Definition 1.18 (ordered field properties)
 
-<span style="display:block" class="boxed" markdown="1">
+<DIV class="boxed" markdown="1">
 <details>
     <summary><b>
     Properties of an ordered field
@@ -520,19 +520,19 @@ For any $x, y, z \in F$ of an ordered field $F$:
 **(e)** $0 < x < y \implies 0 < y^{-1} < x^{-1}$.
 
 </details>
-</span>
+</DIV>
 
 
 <!-- 
 
-<span style="display:block" class="boxed" markdown="1">
+<DIV class="boxed" markdown="1">
 <details>
     <summary><b>
     Title
     </b></summary>
 
 </details>
-</span>
+</DIV>
 
 -->
 
