@@ -10,12 +10,6 @@ function openDetails() {
         e.removeAttribute('open') : e.setAttribute('open', true);
     })
 }
-function closeDetails() {
-    document.body.querySelectorAll('details')
-        .forEach((e) => {(e.hasAttribute('open')) ?
-        e.removeAttribute('open') : e.setAttribute('open', false);
-    })
-}
 </script>
 <style>
     .boxed {
@@ -45,8 +39,7 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
 https://vincenttam.github.io/javascripts/MathJaxLocal.js">
 </script>
 
-<button onclick="openDetails()">Expand details</button>
-<button onclick="closeDetails()">Collapse details</button>
+<button onclick="openDetails()">Toggle details</button>
 
 
 <!-- ### Definition (logic).
@@ -721,7 +714,7 @@ Thus there exists some $p = \frac{m}{n} \in \mathbb{Q}$ where $x < p < y$. $\squ
     Existence of the <i>n</i>th root
     </b></summary><br>
 
-For every $x \in \mathbb R^+$ and every $n \in \mathbb N$, there is a unique positive $y \in \mathbb R$ where $y^n = \underbrace{y \cdots y}_{n \text{ times}} = x$.
+For every $x \in \mathbb R^+$ and every $n \in \mathbb N^+$, there is a unique positive $y \in \mathbb R$ where $y^n = \underbrace{y \cdots y}_{n \text{ times}} = x$.
 
 We write $y = \sqrt[n]{x} = x^{1/n}$.
 
@@ -729,10 +722,10 @@ We write $y = \sqrt[n]{x} = x^{1/n}$.
 
 <details>
     <summary><b>
-    Corollary.
+    Corollary (root is distributive).
     </b></summary><br>
 
-If $a, b \in \mathbb R^+$, then $(ab)^{1/n} = a^{1/n} b^{1/n}.$
+If $a, b \in \mathbb R^+$, then $(a \cdot b)^{1/n} = a^{1/n} \cdot b^{1/n}.$
 
 <b>Proof of corollary.</b> See page 11 of <i>Rudin, 3rd ed.</i>
 
