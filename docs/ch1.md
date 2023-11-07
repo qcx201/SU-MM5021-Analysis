@@ -3,8 +3,8 @@
 <!-- border div: https://stackoverflow.com/a/61945876 -->
 <!-- markdown: https://stackoverflow.com/a/50974387 -->
 <style>
-    /* Whatever that is inside this <style> tag is all styling for your markup / content structure.
-    /* The . with the boxed represents that it is a class */
+    /</i> Whatever that is inside this <style> tag is all styling for your markup / content structure.
+    /</i> The . with the boxed represents that it is a class */
     .boxed {
     background: #F2F2F2;
     color: black;
@@ -33,14 +33,14 @@ A mathematical statement can be either true or false, which we call the truth va
 
 Examples of statements $P$:
 
-* $P := 1 + 1 = 2$ (True)
-* $P := 2 + 2 = 5$ (False)
-* $P := \sqrt 2$ is rational (False)
-* $P :=$ Sweden is a European country (True)
+</i> $P := 1 + 1 = 2$ (True)
+</i> $P := 2 + 2 = 5$ (False)
+</i> $P := \sqrt 2$ is rational (False)
+</i> $P :=$ Sweden is a European country (True)
 
 Examples of non-statements:
 
-* Hello 
+</i> Hello 
 
 Let $P$ and $Q$ be statements. -->
 
@@ -62,19 +62,19 @@ Some notation used not found in *Rudin, 3rd ed*.
 
 ### Definitions 1.3 (sets).
 
-<DIV class="boxed" markdown="1">
+<div class="boxed" markdown="1">
 <details><summary><b>Set membership</b></summary>
 
-A ***set*** is a collection of objects.
+A <b><i>set</i></b> is a collection of objects.
 
-For a set $A$, write $x \in A$ to indicate $x$ is an ***element*** of $A$. Write $x \not\in A$ to indicate $x$ is not an element of $A$.
+For a set $A$, write $x \in A$ to indicate $x$ is an <b><i>element</i></b> of $A$. Write $x \not\in A$ to indicate $x$ is not an element of $A$.
 </details>
 
 <details><summary><b>Subset and superset</b></summary><br>
 
 Let $A$ and $B$ be sets.
 
-We say $A$ is a ***subset*** of $B$ ($A \subseteq B$) or $B$ is a ***superset*** of $A$ ($B \supseteq A$) if every element of $A$ is an element of $B$:
+We say $A$ is a <b><i>subset</i></b> of $B$ ($A \subseteq B$) or $B$ is a <b><i>superset</i></b> of $A$ ($B \supseteq A$) if every element of $A$ is an element of $B$:
 $$
     A \subseteq B
     \;:=\;
@@ -83,7 +83,7 @@ $$
     \forall a \in A, a \in B.
 $$
 
-If there are also elements in $B$ that are not in $A$, we can use ***proper* subset** ($A \subset B$) and ***proper* superset** ($B \supset A$):
+If there are also elements in $B$ that are not in $A$, we can use <b><i>proper</i> subset</b> ($A \subset B$) and <b><i>proper</i> superset</b> ($B \supset A$):
 
 $$
     A \subset B
@@ -93,31 +93,31 @@ $$
     (A \subseteq B) \land (\exists b \in B, b \not\in A).
 $$
 </details>
-</DIV>
+</div>
 
 
 ### Definition 1.4 (rationals).
 
-<DIV class="boxed" markdown="1">
+<div class="boxed" markdown="1">
 <details><summary><b>Common sets</b></summary>
 
-Let $\mathbb{N}$ denote the set of ***natural*** numbers.
+Let $\mathbb{N}$ denote the set of <b><i>natural</i></b> numbers.
 $$
     \mathbb{N} = \left\{0, 1, 2, ...\right\}.
 $$
 
-Let $\mathbb{Z}$ denote the set of ***integers***.
+Let $\mathbb{Z}$ denote the set of <b><i>integers</i></b>.
 $$
     \mathbb{Z} = \left\{0, 1, -1, 2, -2, ...\right\}.
 $$
 
-Let $\mathbb{Q}$ denote the set of ***rationals***:
+Let $\mathbb{Q}$ denote the set of <b><i>rationals</i></b>:
 $$
     \mathbb{Q} = \left\{\frac{p}{q} : p, q \in \mathbb{Z}, q \ne 0\right\}
 $$
 
 </details>
-</DIV>
+</div>
 
 
 
@@ -125,16 +125,16 @@ $$
 
 ### Definitions 1.5 (order).
 
-<DIV class="boxed" markdown="1">
+<div class="boxed" markdown="1">
 <details><summary><b>Order relation</b></summary>
 
-Let $S$ be a set. An ***order*** $(<)$ on $S$ has two properties:
+Let $S$ be a set. An <b><i>order</i></b> $(<)$ on $S$ has two properties:
 
-**(i)** If $x, y \in S$ then only one of the following is true:
+<b>(i)</b> If $x, y \in S$ then only one of the following is true:
 $$
     x < y,\quad x = y,\quad y < x.
 $$
-**(ii)** If $x, y, z \in S$ then
+<b>(ii)</b> If $x, y, z \in S$ then
 $$
     (x < y) \land (y < z) \implies x < z.
 $$
@@ -143,7 +143,7 @@ $$
 
 <details><summary><b>Other definitions</b></summary>
 
-**Less than** and ***greater than:***
+**Less than</b> and <b><i>greater than:</i></b>
 
 $$
     x < y
@@ -152,7 +152,7 @@ $$
     .
 $$
 
-***Weak* inequalities:**
+***Weak</i> inequalities:**
 $$
     x \le y
     \;:=\;
@@ -162,23 +162,23 @@ $$
 $$
 
 </details>
-</DIV>
+</div>
 
 
 ### Definition 1.6 (ordered set).
 
-<DIV class="boxed" markdown="1">
+<div class="boxed" markdown="1">
 <details><summary><b>Ordered set</b></summary>
 
-An ***ordered set*** is a set $S$ in which an order $(<)$ is defined.
+An <b><i>ordered set</i></b> is a set $S$ in which an order $(<)$ is defined.
 
 </details>
-</DIV>
+</div>
 
 
 ### Definition 1.7 (upper and lower bound).
 
-<DIV class="boxed" markdown="1">
+<div class="boxed" markdown="1">
 <details><summary><b>Upper bound</b></summary>
 
 Let $(S, <)$ be an ordered set and $E \subset S$. Then if
@@ -187,13 +187,13 @@ $$
     \forall x \in E, \;
     x \le b,
 $$
-then we say $E$ is ***bounded above*** and call $b$ an ***upper bound*** of $E$.
+then we say $E$ is <b><i>bounded above</i></b> and call $b$ an <b><i>upper bound</i></b> of $E$.
 
 </details>
 
 <details><summary><b>Lower bound</b></summary>
 
-A ***lower bound*** $a$ of $E \subset S$ ***bounded below*** is defined the same way:
+A <b><i>lower bound</i></b> $a$ of $E \subset S$ <b><i>bounded below</i></b> is defined the same way:
 $$
     \exists a \in S, \;
     \forall x \in E, \;
@@ -201,24 +201,24 @@ $$
 $$
 
 </details>
-</DIV>
+</div>
 
 
 ### Definition 1.8 (supremum and infimum).
 
-<DIV class="boxed" markdown="1">
+<div class="boxed" markdown="1">
 <details><summary><b>Supremum</b></summary>
 
 Let $(S, <)$ be an ordered set, $E \subset S$, and $E$ be bounded above. If there is an $a \in S$ where
 <br>
-**(i)** $b$ is an upper bound of $E$:
+<b>(i)</b> $b$ is an upper bound of $E$:
 $$
     \forall x \in E,
     \quad
     b \le x
 $$
 
-**(ii)** if $x < b$ then $x$ is not an upper bound of $E$:
+<b>(ii)</b> if $x < b$ then $x$ is not an upper bound of $E$:
 $$
     y < b
     \implies
@@ -227,17 +227,17 @@ $$
     y < x,
 $$
 
-then $b$ is called the ***least upper bound*** or ***supremum*** of $E$. We write
+then $b$ is called the <b><i>least upper bound</i></b> or <b><i>supremum</i></b> of $E$. We write
 $$
 b = \sup E.
 $$
 </details>
-</DIV>
+</div>
 
-<DIV class="boxed" markdown="1">
+<div class="boxed" markdown="1">
 <details><summary><b>Infimum</b></summary>
 
-Similarly, we define the ***greatest lower bound*** or **infimum** as
+Similarly, we define the <b><i>greatest lower bound</i></b> or **infimum</b> as
 $$
     a = \inf E
     \; := \;
@@ -248,14 +248,14 @@ $$
 $$
 
 </details>
-</DIV>
+</div>
 
 ### Definition 1.10 (LUBP).
 
-<DIV class="boxed" markdown="1">
+<div class="boxed" markdown="1">
 <details><summary><b>Least-upper-bound property (LUBP)</b></summary>
 
-An ordered set $(S, <)$ has the ***least-upper-bound property*** if for any $E \subset S$ where $E \ne \varnothing$, if $E$ 
+An ordered set $(S, <)$ has the <b><i>least-upper-bound property</i></b> if for any $E \subset S$ where $E \ne \varnothing$, if $E$ 
 $$
     \exists b \in S, \; \forall x \in E,\; x \le b
     \implies
@@ -264,12 +264,12 @@ $$
 $$
 
 </details>
-</DIV>
+</div>
 
 
 ### Theorem 1.11 (sup LB=GLB).
 
-<DIV class="boxed" markdown="1">
+<div class="boxed" markdown="1">
 <details><summary><b>Supremum of lower bounds is the greatest lower bound</b></summary>
 
 Let $(S, <)$ be an ordered set with the LUBP.
@@ -284,10 +284,10 @@ $$
 $$
 
 
-**Proof.** See page 5 of *Rudin, 3rd ed*.
+**Proof.</b> See page 5 of *Rudin, 3rd ed*.
 
 </details>
-</DIV>
+</div>
 
 
 
@@ -296,27 +296,27 @@ $$
 
 ### Definition 1.12 (field).
 
-<DIV class="boxed" markdown="1">
+<div class="boxed" markdown="1">
 <details>
     <summary><b>
     Field axioms
     </b></summary>
 
-A ***field*** $(F, +, \cdot)$ is a set $F$ with two operations, ***addition*** $(+)$ and ***multiplication*** $(\cdot)$, satisfying the "field axioms" for addition **(A)**, multiplication **(M)**, and the distributive law **(D)**.
+A <b><i>field</i></b> $(F, +, \cdot)$ is a set $F$ with two operations, <b><i>addition</i></b> $(+)$ and <b><i>multiplication</i></b> $(\cdot)$, satisfying the "field axioms" for addition <b>(A)**, multiplication <b>(M)**, and the distributive law <b>(D)**.
 
 <details>
     <summary><b>
     (A) Axioms for multiplication
     </b></summary>
 
-**(A1)** Closure:
+<b>(A1)</b> Closure:
 $$
     x, y \in F
     \implies
     x + y \in F
     .
 $$
-**(A2)** Commutativity:
+<b>(A2)</b> Commutativity:
 $$
     \forall x, y \in F,
     \quad
@@ -324,7 +324,7 @@ $$
     .
 $$
 
-**(A3)** Associativity:
+<b>(A3)</b> Associativity:
 $$
     \forall x, y, z \in F,
     \quad
@@ -332,7 +332,7 @@ $$
     .
 $$
 
-**(A4)** Existence of identity:
+<b>(A4)</b> Existence of identity:
 $$
     \exists 0 \in F,
     \quad
@@ -342,7 +342,7 @@ $$
     .
 $$
 
-**(A5)** Existence of inverse:
+<b>(A5)</b> Existence of inverse:
 $$
     \forall x \in F,
     \quad
@@ -358,13 +358,13 @@ $$
     (M) Axioms for multiplication
     </b></summary>
 
-**(M1)** Closure:
+<b>(M1)</b> Closure:
 $$
     x, y \in F \implies x \cdot y \in F
     .
 $$
 
-**(M2)** Commutativity:
+<b>(M2)</b> Commutativity:
 $$
     \forall x, y \in F,
     \quad
@@ -372,7 +372,7 @@ $$
     .
 $$
 
-**(M3)** Associativity:
+<b>(M3)</b> Associativity:
 $$
     \forall x, y, z \in F,
     \quad
@@ -380,7 +380,7 @@ $$
     .
 $$
 
-**(M4)** Existence of identity:
+<b>(M4)</b> Existence of identity:
 $$
     \exists 1 \in F,
     \quad
@@ -392,7 +392,7 @@ $$
     .
 $$
 
-**(M5)** Existence of inverse:
+<b>(M5)</b> Existence of inverse:
 $$
     \forall x \in F,
     \quad
@@ -414,11 +414,11 @@ $$
 
 </details>
 </details>
-</DIV>
+</div>
 
 ### Proposition 1.14 (addition properties).
 
-<DIV class="boxed" markdown="1">
+<div class="boxed" markdown="1">
 <details>
     <summary><b>
     Properties of addition
@@ -426,20 +426,20 @@ $$
 
 Let $x, y, z \in F$ in field $(F, +, \cdot)$. Then the following are true.
 <br>
-**(a)** $x + y = x + z \implies y = z.$
+<b>(a)</b> $x + y = x + z \implies y = z.$
 <br>
-**(b)** $x + y = x \implies y = 0.$
+<b>(b)</b> $x + y = x \implies y = 0.$
 <br>
-**(c)** $x + y = 0 \implies y = -x.$
+<b>(c)</b> $x + y = 0 \implies y = -x.$
 <br>
-**(d)** $-(-x) = x.$
+<b>(d)</b> $-(-x) = x.$
 
 </details>
-</DIV>
+</div>
 
 ### Proposition 1.15 (multiplication properties).
 
-<DIV class="boxed" markdown="1">
+<div class="boxed" markdown="1">
 <details>
     <summary><b>
     Properties of multiplication
@@ -447,21 +447,21 @@ Let $x, y, z \in F$ in field $(F, +, \cdot)$. Then the following are true.
 
 Let $x, y, z \in F, \; x \ne 0$ in field $(F, +, \cdot)$. Then the following are true.
 <br>
-**(a)** $x \cdot y = x \cdot z \implies y = z.$
+<b>(a)</b> $x \cdot y = x \cdot z \implies y = z.$
 <br>
-**(b)** $x \cdot y = x \implies y = 1.$
+<b>(b)</b> $x \cdot y = x \implies y = 1.$
 <br>
-**(c)** $x \cdot y = 1 \implies y = x^{-1}.$
+<b>(c)</b> $x \cdot y = 1 \implies y = x^{-1}.$
 <br>
-**(d)** $(x^{-1})^{-1} = x.$
+<b>(d)</b> $(x^{-1})^{-1} = x.$
 
 </details>
-</DIV>
+</div>
 
 
 ### Proposition 1.16 (other field properties).
 
-<DIV class="boxed" markdown="1">
+<div class="boxed" markdown="1">
 <details>
     <summary><b>
     Other field properties
@@ -469,39 +469,39 @@ Let $x, y, z \in F, \; x \ne 0$ in field $(F, +, \cdot)$. Then the following are
 
 Let $x, y, z \in F$ in field $(F, +, \cdot)$. Then the following are true.
 <br>
-**(a)** $0 \cdot x = 0.$
+<b>(a)</b> $0 \cdot x = 0.$
 <br>
-**(b)** $x, y \ne 0 \implies x \cdot y \ne 0.$
+<b>(b)</b> $x, y \ne 0 \implies x \cdot y \ne 0.$
 <br>
-**(c)** $(-x)\cdot y = -(x \cdot y) = x \cdot (-y).$
+<b>(c)</b> $(-x)\cdot y = -(x \cdot y) = x \cdot (-y).$
 <br>
-**(d)** $(-x)\cdot(-y) = x \cdot y.$
+<b>(d)</b> $(-x)\cdot(-y) = x \cdot y.$
 
 </details>
-</DIV>
+</div>
 
 
 ### Definition 1.17 (ordered field)
 
-<DIV class="boxed" markdown="1">
+<div class="boxed" markdown="1">
 <details>
     <summary><b>
     Ordered field
     </b></summary>
 
-An ***ordered field*** $((F, +, \cdot), <)$ is a **field** $F$ that is also an **ordered set** such that $\forall x, y, z \in F$,
+An <b><i>ordered field</i></b> $((F, +, \cdot), <)$ is a **field</b> $F$ that is also an **ordered set</b> such that $\forall x, y, z \in F$,
 
-**(i)** $y < z \implies x + y < x + z,$
+<b>(i)</b> $y < z \implies x + y < x + z,$
 <br>
-**(ii)** $x, y > 0 \implies xy > 0$.
+<b>(ii)</b> $x, y > 0 \implies xy > 0$.
 
 </details>
-</DIV>
+</div>
 
 
 ### Definition 1.18 (ordered field properties)
 
-<DIV class="boxed" markdown="1">
+<div class="boxed" markdown="1">
 <details>
     <summary><b>
     Properties of an ordered field
@@ -509,30 +509,30 @@ An ***ordered field*** $((F, +, \cdot), <)$ is a **field** $F$ that is also an *
 
 For any $x, y, z \in F$ of an ordered field $F$:
 <br>
-**(a)** $x > 0 \implies -x < 0$ and vice versa.
+<b>(a)</b> $x > 0 \implies -x < 0$ and vice versa.
 <br>
-**(b)** $x > 0,\; y < z \implies x \cdot y < x \cdot z.$
+<b>(b)</b> $x > 0,\; y < z \implies x \cdot y < x \cdot z.$
 <br>
-**(c)** $x < 0,\; y < z \implies x \cdot y > x \cdot z.$
+<b>(c)</b> $x < 0,\; y < z \implies x \cdot y > x \cdot z.$
 <br>
-**(d)** $x \ne 0 \implies x^2 > 0$.
+<b>(d)</b> $x \ne 0 \implies x^2 > 0$.
 <br>
-**(e)** $0 < x < y \implies 0 < y^{-1} < x^{-1}$.
+<b>(e)</b> $0 < x < y \implies 0 < y^{-1} < x^{-1}$.
 
 </details>
-</DIV>
+</div>
 
 
 <!-- 
 
-<DIV class="boxed" markdown="1">
+<div class="boxed" markdown="1">
 <details>
     <summary><b>
     Title
     </b></summary>
 
 </details>
-</DIV>
+</div>
 
 -->
 
