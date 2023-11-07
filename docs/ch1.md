@@ -3,8 +3,6 @@
 <!-- border div: https://stackoverflow.com/a/61945876 -->
 <!-- markdown: https://stackoverflow.com/a/50974387 -->
 <style>
-    /</i> Whatever that is inside this <style> tag is all styling for your markup / content structure.
-    /</i> The . with the boxed represents that it is a class */
     .boxed {
     background: #F2F2F2;
     color: black;
@@ -33,14 +31,14 @@ A mathematical statement can be either true or false, which we call the truth va
 
 Examples of statements $P$:
 
-</i> $P := 1 + 1 = 2$ (True)
-</i> $P := 2 + 2 = 5$ (False)
-</i> $P := \sqrt 2$ is rational (False)
-</i> $P :=$ Sweden is a European country (True)
+- $P := 1 + 1 = 2$ (True)
+- $P := 2 + 2 = 5$ (False)
+- $P := \sqrt 2$ is rational (False)
+- $P :=$ Sweden is a European country (True)
 
 Examples of non-statements:
 
-</i> Hello 
+- Hello 
 
 Let $P$ and $Q$ be statements. -->
 
@@ -62,7 +60,7 @@ Some notation used not found in *Rudin, 3rd ed*.
 
 ### Definitions 1.3 (sets).
 
-<div class="boxed" markdown="1">
+<div class="boxed">
 <details><summary><b>Set membership</b></summary>
 
 A <b><i>set</i></b> is a collection of objects.
@@ -98,7 +96,7 @@ $$
 
 ### Definition 1.4 (rationals).
 
-<div class="boxed" markdown="1">
+<div class="boxed">
 <details><summary><b>Common sets</b></summary>
 
 Let $\mathbb{N}$ denote the set of <b><i>natural</i></b> numbers.
@@ -125,7 +123,7 @@ $$
 
 ### Definitions 1.5 (order).
 
-<div class="boxed" markdown="1">
+<div class="boxed">
 <details><summary><b>Order relation</b></summary>
 
 Let $S$ be a set. An <b><i>order</i></b> $(<)$ on $S$ has two properties:
@@ -167,7 +165,7 @@ $$
 
 ### Definition 1.6 (ordered set).
 
-<div class="boxed" markdown="1">
+<div class="boxed">
 <details><summary><b>Ordered set</b></summary>
 
 An <b><i>ordered set</i></b> is a set $S$ in which an order $(<)$ is defined.
@@ -178,7 +176,7 @@ An <b><i>ordered set</i></b> is a set $S$ in which an order $(<)$ is defined.
 
 ### Definition 1.7 (upper and lower bound).
 
-<div class="boxed" markdown="1">
+<div class="boxed">
 <details><summary><b>Upper bound</b></summary>
 
 Let $(S, <)$ be an ordered set and $E \subset S$. Then if
@@ -206,7 +204,7 @@ $$
 
 ### Definition 1.8 (supremum and infimum).
 
-<div class="boxed" markdown="1">
+<div class="boxed">
 <details><summary><b>Supremum</b></summary>
 
 Let $(S, <)$ be an ordered set, $E \subset S$, and $E$ be bounded above. If there is an $a \in S$ where
@@ -234,10 +232,10 @@ $$
 </details>
 </div>
 
-<div class="boxed" markdown="1">
+<div class="boxed">
 <details><summary><b>Infimum</b></summary>
 
-Similarly, we define the <b><i>greatest lower bound</i></b> or **infimum</b> as
+Similarly, we define the <b><i>greatest lower bound</i></b> or <b>infimum</b> as
 $$
     a = \inf E
     \; := \;
@@ -252,7 +250,7 @@ $$
 
 ### Definition 1.10 (LUBP).
 
-<div class="boxed" markdown="1">
+<div class="boxed">
 <details><summary><b>Least-upper-bound property (LUBP)</b></summary>
 
 An ordered set $(S, <)$ has the <b><i>least-upper-bound property</i></b> if for any $E \subset S$ where $E \ne \varnothing$, if $E$ 
@@ -269,7 +267,7 @@ $$
 
 ### Theorem 1.11 (sup LB=GLB).
 
-<div class="boxed" markdown="1">
+<div class="boxed">
 <details><summary><b>Supremum of lower bounds is the greatest lower bound</b></summary>
 
 Let $(S, <)$ be an ordered set with the LUBP.
@@ -284,7 +282,7 @@ $$
 $$
 
 
-**Proof.</b> See page 5 of *Rudin, 3rd ed*.
+<b>Proof.</b> See page 5 of <i>Rudin, 3rd ed</i>.
 
 </details>
 </div>
@@ -296,13 +294,13 @@ $$
 
 ### Definition 1.12 (field).
 
-<div class="boxed" markdown="1">
+<div class="boxed">
 <details>
     <summary><b>
     Field axioms
     </b></summary>
 
-A <b><i>field</i></b> $(F, +, \cdot)$ is a set $F$ with two operations, <b><i>addition</i></b> $(+)$ and <b><i>multiplication</i></b> $(\cdot)$, satisfying the "field axioms" for addition <b>(A)**, multiplication <b>(M)**, and the distributive law <b>(D)**.
+A <b><i>field</i></b> $(F, +, \cdot)$ is a set $F$ with two operations, <b><i>addition</i></b> $(+)$ and <b><i>multiplication</i></b> $(\cdot)$, satisfying the "field axioms" for addition <b>(A)</b>, multiplication <b>(M)</b>, and the distributive law <b>(D)</b>.
 
 <details>
     <summary><b>
@@ -418,7 +416,7 @@ $$
 
 ### Proposition 1.14 (addition properties).
 
-<div class="boxed" markdown="1">
+<div class="boxed">
 <details>
     <summary><b>
     Properties of addition
@@ -439,7 +437,7 @@ Let $x, y, z \in F$ in field $(F, +, \cdot)$. Then the following are true.
 
 ### Proposition 1.15 (multiplication properties).
 
-<div class="boxed" markdown="1">
+<div class="boxed">
 <details>
     <summary><b>
     Properties of multiplication
@@ -461,7 +459,7 @@ Let $x, y, z \in F, \; x \ne 0$ in field $(F, +, \cdot)$. Then the following are
 
 ### Proposition 1.16 (other field properties).
 
-<div class="boxed" markdown="1">
+<div class="boxed">
 <details>
     <summary><b>
     Other field properties
@@ -483,13 +481,13 @@ Let $x, y, z \in F$ in field $(F, +, \cdot)$. Then the following are true.
 
 ### Definition 1.17 (ordered field)
 
-<div class="boxed" markdown="1">
+<div class="boxed">
 <details>
     <summary><b>
     Ordered field
     </b></summary>
 
-An <b><i>ordered field</i></b> $((F, +, \cdot), <)$ is a **field</b> $F$ that is also an **ordered set</b> such that $\forall x, y, z \in F$,
+An <b><i>ordered field</i></b> $((F, +, \cdot), <)$ is a <b>field</b> $F$ that is also an <b>ordered set</b> such that $\forall x, y, z \in F$,
 
 <b>(i)</b> $y < z \implies x + y < x + z,$
 <br>
@@ -501,7 +499,7 @@ An <b><i>ordered field</i></b> $((F, +, \cdot), <)$ is a **field</b> $F$ that is
 
 ### Definition 1.18 (ordered field properties)
 
-<div class="boxed" markdown="1">
+<div class="boxed">
 <details>
     <summary><b>
     Properties of an ordered field
@@ -525,7 +523,7 @@ For any $x, y, z \in F$ of an ordered field $F$:
 
 <!-- 
 
-<div class="boxed" markdown="1">
+<div class="boxed">
 <details>
     <summary><b>
     Title
