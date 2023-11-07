@@ -8,11 +8,13 @@ function openDetails() {
     document.body.querySelectorAll('details')
         .forEach((e) => {(e.hasAttribute('open')) ?
         e.removeAttribute('open') : e.setAttribute('open', true);
-        console.log(e.hasAttribute('open'))
     })
 }
-function test() {
-    console.log("hello world")
+function closeDetails() {
+    document.body.querySelectorAll('details')
+        .forEach((e) => {(e.hasAttribute('open')) ?
+        e.removeAttribute('open') : e.setAttribute('open', false);
+    })
 }
 </script>
 <style>
@@ -43,7 +45,8 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
 https://vincenttam.github.io/javascripts/MathJaxLocal.js">
 </script>
 
-<a onclick="openDetails()">Expand details</a>
+<button onclick="openDetails()">Expand details</button>
+<button onclick="closeDetails()">Collapse details</button>
 
 
 <!-- ### Definition (logic).
